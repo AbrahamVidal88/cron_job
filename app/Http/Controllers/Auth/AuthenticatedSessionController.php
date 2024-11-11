@@ -34,6 +34,7 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
         
+        prueba::dispatch();
 
         return redirect()->intended(route('dashboard', absolute: false));
     }
