@@ -22,7 +22,7 @@ var n = 10;
                     class="overflow-hidden bg-white shadow-sm sm:rounded-lg"
                 >
                     <div class="p-6 text-gray-900">
-                        You're logged in!
+                        sopas tas logueado
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@ var n = 10;
            sopas si es diez: {{ n }}
            sopas si jalo el cambio mongol
            ejecute el comando npm run build
-           mamacoco01
+           mamasopas01
         </p>
         <p v-else>
             sopas no es diez: {{ n }}
