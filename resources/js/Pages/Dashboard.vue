@@ -32,6 +32,7 @@ var n = 10;
            sopas si es diez: {{ n }}
            sopas si jalo el cambio mongol
            ejecute el comando npm run build
+           mamacoco01
         </p>
         <p v-else>
             sopas no es diez: {{ n }}
