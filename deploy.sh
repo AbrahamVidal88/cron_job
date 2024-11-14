@@ -3,4 +3,4 @@ composer install --no-interaction --prefer-dist --optimize-autoloader
 # Ejecutar 
 npm install
 # ejecutar
-# npm run build
+npm run build
