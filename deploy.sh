@@ -1,5 +1,5 @@
 # Ejecutar composer install 
-composer install --no-interaction --prefer-dist --optimize-autoloader 
+#composer install --no-interaction --prefer-dist --optimize-autoloader 
 # Ejecutar 
 npm install
 # ejecutar
