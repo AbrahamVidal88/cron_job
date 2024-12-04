@@ -13,3 +13,5 @@ Schedule::call(function () {
     'name'=>'Abraham',
    ]);
 })->everyMinute();
+
+Schedule::command('app:createname')->everyMinute();
