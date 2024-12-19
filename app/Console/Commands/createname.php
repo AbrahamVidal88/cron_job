@@ -31,7 +31,7 @@ class createname extends Command
         $dateNow = Carbon::now();
 
         Nombres::create([
-            'name'=> 'Abraham'.$dateNow->format('Y-m-d H.i.s'),
+            'name'=> 'Abraham Vidal'.$dateNow->format('Y-m-d H.i.s'),
         ]);
     }
 }

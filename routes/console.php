@@ -8,10 +8,10 @@ Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->purpose('Display an inspiring quote')->hourly();
 
-Schedule::call(function () {
-   Nombres::create([
-    'name'=>'Abraham',
-   ]);
-})->everyMinute();
+// Schedule::call(function () {
+//    Nombres::create([
+//     'name'=>'Abraham',
+//    ]);
+// })->everyMinute();
 
-Schedule::command('app:createname')->everyMinute();
+Schedule::command('app:createname')->everyTenMinutes();

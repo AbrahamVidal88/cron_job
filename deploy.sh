@@ -1,0 +1,1 @@
+/usr/local/bin/php /home3/leviata5/cronjob.leviatan-chk.com/artisan schedule:run
